@@ -12,11 +12,28 @@ end
 
 def word_substituter(tweet)
   #takes in string of tweet as an argument and shortens it based on substitutes
-  short_tweet = [ ]
-  arr_dictionary = dictionary.keys
-  arr_tweets = str_tweets.split(' ')
-  arr_tweets.each do |word|
-    arr_dictionary.include?(word) ? short_tweet << dictionary[word] : result << word
+  short = tweet.split(" ")
+  short_tweet = []
+
+  words.each do |word|
+    case word.downcase
+    when "hello"
+      short_tweet << "hi"
+    when "to", "two", "too"
+      short_tweet << "2"
+    when "for", "four" 
+      short_tweet << "4"
+    when "be" 
+      short_tweet << "b"
+    when "you" 
+      short_tweet << "u"
+    when "at" 
+      short_tweet << "@" 
+    when "and" 
+      short_tweet << "&"
+    else
+      short_tweet << word
+    end
   end
-  result.join(' ')
+  short_tweet.join(" ")
 end
