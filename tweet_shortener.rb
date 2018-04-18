@@ -18,7 +18,7 @@ def word_substituter(tweet)
   short = tweet.split(" ")
   short_tweet = []
 
-  words.each do |word|
+  tweet.each do |word|
     case word.downcase
     when "hello"
       short_tweet << "hi"
