@@ -19,4 +19,5 @@ def word_substituter(tweet)
   short_tweet = []
 
   words.each do |word|
+    
   end
