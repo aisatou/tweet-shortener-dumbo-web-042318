@@ -31,6 +31,6 @@ def bulk_tweet_shortener(arr_tweets)
   #put results to the screen
   arr_tweets.map do |tweet|
     tweet = word_substituter(tweet)
-    puts 
+    puts "#{tweet}"
   end
 end
