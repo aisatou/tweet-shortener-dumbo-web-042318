@@ -25,7 +25,6 @@ def word_substituter(tweet)
 end
 
 def bulk_tweet_shortener(arr_tweets)
-  #shortens tweets that exceed 140 characters
   #iterate them
   #shorten them
   #put results to the screen
@@ -36,5 +35,8 @@ def bulk_tweet_shortener(arr_tweets)
 end
 
 def selective_tweet_shortener
+  #shortens tweets that exceed 140 characters
+  #only does subs if tweet is longer than 140 characters
+  #if 140 or less, return original tweet
   
 end
