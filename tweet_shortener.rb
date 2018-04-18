@@ -34,6 +34,5 @@ def word_substituter(tweet)
       short_tweet << "&"
     else
       short_tweet << word
-    end
   end
   short_tweet.join(" ")
