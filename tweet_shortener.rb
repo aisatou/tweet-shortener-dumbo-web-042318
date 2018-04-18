@@ -11,5 +11,6 @@ def dictionary = {
 end
 
 def word_substituter(tweet)
+  #takes in string of tweet as an argument and shortens it based on substitutes
   
 end
