@@ -50,5 +50,7 @@ def shortened_tweet_truncator(tweet)
   #truncate with ellipsis(...)
   if tweet.size > 140
     tweet[0...140] + "..."
-    
+  else
+    tweet
+  end
 end
