@@ -48,5 +48,5 @@ end
 def shortened_tweet_truncator(tweet)
   #truncates tweets over 140 characters after shortening
   #truncate with ellipsis(...)
-  if 
+  if tweet.size > 140
 end
