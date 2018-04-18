@@ -1,4 +1,8 @@
 # Write your code here.
-def word_substituter
+def dictionary
+  
+end
+
+def word_substituter(long_word)
   
 end
