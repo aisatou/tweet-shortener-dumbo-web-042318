@@ -32,4 +32,6 @@ def bulk_tweet_shortener(arr_tweets)
   arr_tweets.map do |tweet|
     word_substituter(tweet)
   end
+  bulk_tweet_shortener(arr_tweets)
+end
 end
