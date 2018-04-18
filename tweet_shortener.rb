@@ -24,7 +24,7 @@ def word_substituter(tweet)
     end.join(" ")
 end
 
-def selective_tweet_shortener(arr_tweets)
+def bulk_tweet_shortener(arr_tweets)
   #shortens tweets that exceed 140 characters
   #iterate them
   #shorten them
