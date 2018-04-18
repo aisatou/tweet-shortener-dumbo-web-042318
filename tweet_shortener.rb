@@ -29,5 +29,6 @@ def selective_tweet_shortener(arr_tweets)
   #iterate them
   #shorten them
   #put results to the screen
-  arr_tweets.map do 
+  arr_tweets.map do |tweet|
+    
 end
