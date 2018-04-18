@@ -34,7 +34,7 @@ def bulk_tweet_shortener(arr_tweets)
   end
 end
 
-def selective_tweet_shortener
+def selective_tweet_shortener(tweet)
   #shortens tweets that exceed 140 characters
   #only does subs if tweet is longer than 140 characters
   #if 140 or less, return original tweet
