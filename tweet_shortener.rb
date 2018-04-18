@@ -38,7 +38,7 @@ def selective_tweet_shortener(tweet)
   #shortens tweets that exceed 140 characters
   #only does subs if tweet is longer than 140 characters
   #if 140 or less, return original tweet
-  if tweet.length > 140
+  if tweet.size > 140
     word_substituter(tweet)
   else
     tweet
