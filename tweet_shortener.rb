@@ -34,3 +34,4 @@ def bulk_tweet_shortener(arr_tweets)
     puts "#{tweet}"
   end
 end
+
