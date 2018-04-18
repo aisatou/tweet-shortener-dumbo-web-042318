@@ -20,11 +20,11 @@ def word_substituter(tweet)
 
   tweet.each do |word|
     case word.downcase
-    when "hello"
+    if "hello"
       short_tweet << "hi"
-    when "to", "two", "too"
+    elsif "to", "two", "too"
       short_tweet << "2"
-    when "for", "four" 
+    elsif "for", "four" 
       short_tweet << "4"
     when "be" 
       short_tweet << "b"
