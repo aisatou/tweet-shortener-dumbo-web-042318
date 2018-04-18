@@ -26,13 +26,13 @@ def word_substituter(tweet)
       short_tweet << "2"
     elsif "for", "four" 
       short_tweet << "4"
-    when "be" 
+    elsif "be" 
       short_tweet << "b"
-    when "you" 
+    elsif "you" 
       short_tweet << "u"
-    when "at" 
+    elsif "at" 
       short_tweet << "@" 
-    when "and" 
+    elsif "and" 
       short_tweet << "&"
     else
       short_tweet << word
