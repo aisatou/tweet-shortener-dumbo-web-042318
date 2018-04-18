@@ -34,4 +34,3 @@ def bulk_tweet_shortener(arr_tweets)
   end
   bulk_tweet_shortener(arr_tweets)
 end
-end
