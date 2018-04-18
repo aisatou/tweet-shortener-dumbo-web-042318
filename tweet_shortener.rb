@@ -11,10 +11,10 @@ def dictionary
 }
 end
 
-def word_substituter(tweet)
-  #takes in string of tweet as an argument and shortens it based on substitutes
-  short = tweet.split(" ")
-  short_tweet = []
+# def word_substituter(tweet)
+#   #takes in string of tweet as an argument and shortens it based on substitutes
+#   short = tweet.split(" ")
+#   short_tweet = []
 
-  words.each do |word|
-  end
+#   words.each do |word|
+#   end
