@@ -44,3 +44,9 @@ def selective_tweet_shortener(tweet)
     tweet
   end
 end
+
+def shortened_tweet_truncator
+  #truncates tweets over 140 characters after shortening
+  #truncate with ellipsis(...)
+  
+end
