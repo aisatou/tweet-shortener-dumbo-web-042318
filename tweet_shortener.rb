@@ -10,6 +10,6 @@ def dictionary = {
 }
 end
 
-def word_substituter(long_word)
+def word_substituter(tweet)
   
 end
